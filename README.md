@@ -19,8 +19,7 @@ A custom **UI interface** was developed for students and clinicians to visualize
 
 ---
 
-## 🧩 Tech Stack  
-- **Language:** Python  
+## 🧩 Tech Stack   
 - **Frameworks & Libraries:** PyTorch, Hugging Face Transformers, OpenCV, NumPy, Streamlit  
 - **Tools:** Jupyter Notebook, Git, VS Code  
 
