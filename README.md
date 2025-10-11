@@ -10,6 +10,7 @@ This project assists doctors in identifying gastrointestinal abnormalities using
 A custom **UI interface** was developed for students and clinicians to visualize predictions in real-time.  
 
 ---
+<img width="1412" height="661" alt="Screenshot 2025-10-11 at 10 35 56 PM" src="https://github.com/user-attachments/assets/eefda89e-2c6d-42f3-a872-30b6f7209393" />
 
 ## 🧠 Key Features  
 - ⚡ **Vision Transformer (Hugging Face, PyTorch)** for image and video classification  
