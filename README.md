@@ -42,9 +42,9 @@ A custom **UI interface** was developed for students and clinicians to visualize
 ---
 
 ## 👩‍💻 Contributor  
-**Nyla Bhargava**
-**Priyanka Sen**
-**Aditya Verma**
+- **Nyla Bhargava**,
+- **Priyanka Sen**,
+- **Aditya Verma**
 
 ---
 
