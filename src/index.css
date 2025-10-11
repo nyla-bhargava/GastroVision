@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Medical-themed color scheme */
+    --background: 0 0% 100%;
+    --foreground: 200 15% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 200 15% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 200 15% 20%;
+
+    /* Blue (#005566) - Main primary color */
+    --primary: 190 100% 20%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Teal (#00A3A3) - Secondary color */
+    --secondary: 180 100% 32%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 200 20% 96%;
+    --muted-foreground: 200 15% 45%;
+
+    /* Lighter teal for accents */
+    --accent: 180 30% 90%;
+    --accent-foreground: 190 100% 20%;
+
+    /* Red (#FF3B30) for destructive actions */
+    --destructive: 4 100% 59%;
+    --destructive-foreground: 0 0% 100%;
+
+    /* Subtle borders and inputs */
+    --border: 200 20% 92%;
+    --input: 200 20% 92%;
+    --ring: 190 100% 20%;
+
+    --radius: 0.5rem;
+
+    /* Success/Normal indicator (Green #34C759) */
+    --success: 142 70% 49%;
+    --success-foreground: 0 0% 100%;
+
+    /* Warning indicator (Yellow #FFCC00) */
+    --warning: 48 100% 50%;
+    --warning-foreground: 0 0% 20%;
+
+    /* Sidebar styling */
+    --sidebar-background: 190 30% 98%;
+    --sidebar-foreground: 200 15% 25%;
+    --sidebar-primary: 190 100% 20%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 180 30% 95%;
+    --sidebar-accent-foreground: 190 100% 20%;
+    --sidebar-border: 190 20% 92%;
+    --sidebar-ring: 190 100% 20%;
+  }
+
+  .dark {
+    --background: 200 15% 12%;
+    --foreground: 0 0% 95%;
+
+    --card: 200 15% 15%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 200 15% 12%;
+    --popover-foreground: 0 0% 95%;
+
+    /* Lighter blue in dark mode */
+    --primary: 190 70% 50%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Lighter teal in dark mode */
+    --secondary: 180 70% 40%;
+    --secondary-foreground: 0 0% 100%;
+
+    --muted: 200 15% 20%;
+    --muted-foreground: 200 10% 70%;
+
+    --accent: 180 15% 25%;
+    --accent-foreground: 180 70% 80%;
+
+    --destructive: 0 70% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 200 15% 25%;
+    --input: 200 15% 25%;
+    --ring: 180 70% 60%;
+
+    /* Success/Normal indicator (Green) - darker */
+    --success: 142 60% 40%;
+    --success-foreground: 0 0% 100%;
+
+    /* Warning indicator (Yellow) - darker */
+    --warning: 48 80% 45%;
+    --warning-foreground: 0 0% 20%;
+
+    /* Sidebar styling for dark mode */
+    --sidebar-background: 200 15% 15%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 190 70% 50%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 190 15% 20%;
+    --sidebar-accent-foreground: 0 0% 90%;
+    --sidebar-border: 200 15% 25%;
+    --sidebar-ring: 190 70% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
